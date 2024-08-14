@@ -1,0 +1,1 @@
+export const BACKEND_URL= "https://backend.kbora3525.workers.dev"
