@@ -9,7 +9,7 @@ export function Blog(){
         id: String(id ||"")
     });
     console.log(sblog);
-    if(loading){
+    if(loading || !sblog){
         return <div className="flex justify-center">
             <div className="w-full max-w-screen-lg"><div className="w-full">
             <Blogskle/>

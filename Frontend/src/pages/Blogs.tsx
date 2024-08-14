@@ -18,7 +18,7 @@ export function Blogs(){
         <Appbar/>
         <div className="flex justify-center">
         <div >
-            {blog.map(blog=> <Blogcard id={blog.id} authorname={blog.author.name} title={blog.title} content={blog.content}/>)}
+            {blog.map(blog=> <Blogcard publish="2-15-2024" id={blog.id} authorname={blog.author.name} title={blog.title} content={blog.content}/>)}
     </div>
         </div>
     </div>
