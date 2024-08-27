@@ -5,13 +5,12 @@ import { Blogskle } from "../component/Blogskel";
 export function Blogs(){
     const {loading ,blog} = useBlogs();
     if(loading){
-        return <div className="flex justify-center">
-            <div className="w-full max-w-screen-lg"><div className="w-full">
-            <Blogskle/>
-            <Blogskle/>
-            <Blogskle/>
-            </div></div>
-        </div>
+        return (
+            <div className="h-full w-full flex items-center justify-center">
+                <Blogskle />
+            </div>
+        );
+        
     }
     return <div className="font-dm-sans" >
         <div></div>

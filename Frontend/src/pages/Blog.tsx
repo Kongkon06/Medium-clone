@@ -13,8 +13,6 @@ export function Blog(){
         return <div className="flex justify-center">
             <div className="w-full max-w-screen-lg"><div className="w-full">
             <Blogskle/>
-            <Blogskle/>
-            <Blogskle/>
             </div></div>
         </div>
     }
